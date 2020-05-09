@@ -1,0 +1,13 @@
+package com.cognizant.interfaces;
+
+import com.cognizant.main.Message;
+
+public interface Subject {
+
+	public void attach(Observer o);
+
+	public void detach(Observer o);
+
+	public void notifyUpdate(Message m);
+
+}
